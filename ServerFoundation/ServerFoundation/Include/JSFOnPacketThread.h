@@ -3,6 +3,7 @@
 #include "JSFThread.h"
 #include "JSFPacket.h"
 #include "JSFTypeDefs.h"
+#include "JSFThreadLock.h"
 
 using namespace std;
 
@@ -19,6 +20,7 @@ public:
 	void *m_pUser;
 	JSFClientProperty* mpClientProp;
 	size_t mQueueLimit;
+	JSFThreadLock mPacketQueueMutex;
 public:
 	virtual bool IsEmpty() const;
 	virtual void PostPacket(JSFPacket* pPacket);

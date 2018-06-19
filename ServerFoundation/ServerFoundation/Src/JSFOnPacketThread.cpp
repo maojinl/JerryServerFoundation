@@ -21,7 +21,9 @@ bool JSFOnPacketThread::IsEmpty() const
 
 void JSFOnPacketThread::PostPacket(JSFPacket* pPacket)
 {
+	mPacketQueueMutex.Lock();
 	mPacketQueue.push_back(pPacket);
+	mPacketQueueMutex.Unlock();
 }
 
 Uint32 JSFOnPacketThread::Run()
@@ -39,7 +41,9 @@ Uint32 JSFOnPacketThread::Run()
 		strcpy_s(s, bufSize, &(pPacket->GetPacketData()[0]));
 		s[bufSize] = 0;
 		printf("[JSFOnPacketThread::Run] packet handling, packet is %s", s);
+		mPacketQueueMutex.Lock();
 		mPacketQueue.pop_front();
+		mPacketQueueMutex.Unlock();
 	}
 	return 0;
 }
