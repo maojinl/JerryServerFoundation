@@ -9,7 +9,7 @@ JSFOnPacketThread::~JSFOnPacketThread()
 {
 	for (JSFPacketQueue::iterator ite = mPacketQueue.begin(); ite != mPacketQueue.end(); ite++)
 	{
-		delete *ite;
+		delete (*ite);
 	}
 	mPacketQueue.clear();
 }
