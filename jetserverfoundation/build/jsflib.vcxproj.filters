@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_client_property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_onpacket_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_server_sockets_mgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_socket_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\personal\tomatodb\third_party\jetserverfoundation\src\jsf_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_memory_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_client_property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_onpacket_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_server_sockets_mgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_socket_ring_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_socket_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_thread_lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\jsf_type_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\personal\tomatodb\third_party\jetserverfoundation\include\export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\personal\tomatodb\third_party\jetserverfoundation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ADC0F9D5-8B56-3206-8F50-272CFEABD5E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FCA747AA-7679-3997-B6A0-44BE5F01C91B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

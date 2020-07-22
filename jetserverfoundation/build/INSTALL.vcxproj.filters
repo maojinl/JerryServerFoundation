@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\personal\tomatodb\third_party\jetserverfoundation\build\CMakeFiles\c64c012a6e2cb0b0d7f36b81dd16ebec\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3D8A6066-93EC-3594-9617-F46E79448EF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
